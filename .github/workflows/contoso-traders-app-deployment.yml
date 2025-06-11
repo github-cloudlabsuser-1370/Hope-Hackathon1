@@ -1,4 +1,6 @@
 name: contoso-traders-app-deployment
+permissions:
+  contents: read
 
 on:
   workflow_dispatch:
